@@ -1,0 +1,5 @@
+First I'd like to say: apologies for the mess.
+Next I'd like to point out some things that are not really implemented in the game:
+The AStarNode and linked list are never called and do not work. 
+A lot (I mean LOT) of this code can be refactored. 
+Re-use or learn from at your discretion.

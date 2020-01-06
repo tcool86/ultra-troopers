@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="testSet" tilewidth="64" tileheight="64">
+  <image source="tileSheet.png"/>
+  <tile id="1">
+   <properties>
+    <property name="collision" value="wall_bottom"/>
+    <property name="collision" value="wall_bottom"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="collision" value="wall_movable"/>
+    <property name="collision" value="wall_movable"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="collision" value="wall_middle"/>
+    <property name="collision" value="wall_middle"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="collision" value="wall_top"/>
+    <property name="collision" value="wall_top"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="65" name="metaSet" tilewidth="64" tileheight="64">
+  <image source="meta_tileSet.png"/>
+ </tileset>
+ <layer name="background" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NkYGCQohJmHCA80PajuwOGlbCoUaIg3HCZR4l7iREjFStR6C5qmadEJiY2fpHjGVu8kpsuB0v4DTXzcMUHtcylln+HEwYA8BDI6EAGAAA=
+  </data>
+ </layer>
+ <layer name="decor" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAUjBQgDsQgQi1JJrTQQywCxLBHmEaNWGYhVgFiVCPNIUTsSAHJ84Ys7YtUhxxe+uCNWHXJ84Ys7YtVh8wcuQK5/cYWfNAP9/TtYAQBPVIeDQAYAAA==
+  </data>
+ </layer>
+ <layer name="dynamic" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGLqAhUgxcswhRQ0vAb18UIwPoJuBrJ5U9xGyi5qADwcbXYyebqI2IBS/lJpBafqjNqC1f2GAFYsYG4n2kBIu9ApDfH7nxcEmxYzBBABFCpI9QAYAAA==
+  </data>
+ </layer>
+ <layer name="top_layer" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA1NiYGDQohJWgmJqAWLNg9lPLfOIBejmYQsPbHrQ1RHrPlzmEes+dIAtzPCFI7HhN1jUKZGJcZlHKN3jkqfUH6PqiFOHKz4otXewlC/UMo+aGABELrvKQAYAAA==
+  </data>
+ </layer>
+ <layer name="meta" width="20" height="20" opacity="0.15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA3NiYGBwphJ2gmJqAWLNg9lPLfOIBejmYQsTdIBPDSH3YZMjpJ6e5sEAteODXHWE0ikueVzmOZGJKfXHqDri1OGK38HiPlIBrcyjZnkPAEfdWZ9ABgAA
+  </data>
+ </layer>
+</map>
