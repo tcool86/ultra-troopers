@@ -1,6 +1,11 @@
 <div align=center>
 
 ![Ultra Troopers Title](./src/title_ultra.png)
+
+</div>
+
+<div align=center>
+
 ![Ultra Troopers Title](./src/title_troopers.png)
 
 </div>
